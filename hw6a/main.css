@@ -1,0 +1,115 @@
+div {
+    float: left;
+}
+
+body {
+    min-height: 2500px;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background: lightblue;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.nav {
+    height: 60px;
+    width: 100%;
+    background: gold;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.footer {
+    height: 60px;
+    width: 100%;
+    background: orange;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.sidebar {
+    height: 450px;
+    width: 25%;
+    background: navy;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 450px;
+}
+
+.main {
+    height: 450px;
+    width: 75%;
+    background: green;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 450px;
+}
+
+.nav {
+    clear: both;
+}
+
+.navbar {
+    background: #eee;
+}
+
+.navbar>li {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-right: 0px;
+    margin-left: -5px;
+    padding: .5em 1em;
+    width:25%;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+.navbar>li:last-child {
+    border-right: 1px solid #ddd;}
+.submenu {
+    width: 200px;
+    padding: 0px;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    display: none
+}
+
+.submenu li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 0.5em 15px;
+}
+.submenu li:hover{
+    background: white;
+}
+.navbar>li:hover .submenu{display: block;}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 23px;
+    font-family: Arial;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+    text-align: center;
+    background: #f00;
+    position: fixed;
+    right: 0px;
+    bottom:0px ;
+}
